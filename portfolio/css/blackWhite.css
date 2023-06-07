@@ -1,21 +1,21 @@
-body.theme.white {
+.body.theme.white {
     background: #DCDCDC;
     color: #000000;
     transition: 0.2s;
 }
 
-body.theme.black {
+.body.theme.black {
     background: #6a6a6a;
     color: #ebebeb;
     transition: 0.2s;
 }
 
-#photo.theme.white {
+.information__photo.theme.white {
     border: 3px solid #ffffff;
     transition: 0.2s;
 }
 
-#photo.theme.black {
+.information__photo.theme.black {
     border: 3px solid #2b2b2b;
     transition: 0.2s;
 }
