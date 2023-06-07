@@ -1,2 +1,4 @@
 # portfolio
-portfolio projects
+---
+## Resume
+[deploy](https://vladimirtumilodenisovich.github.io/portfolio/resume/)
