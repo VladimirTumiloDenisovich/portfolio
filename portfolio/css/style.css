@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    line-height: 24px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link,
+.link:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1220px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 16px;
+    height: auto;
+    line-height: 24px;
+}
+
+.content {
+    height: auto;
+    padding: 15px 40px;
+    width: 720px;
+    border-radius: 10px;
+    box-shadow: -7px -5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.primary {
+    font-size: 14px;
+}
+
+.information {
+    position: sticky;
+    text-align: center;
+    top: 20px; 
+}
+
+.information__photo {
+    margin-left: 25px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: -5px -3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.infomation__ul {
+    text-align: left;
+}
+
+.size-pdf {
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    position: absolute
+}
+.link-pdf {
+    margin: auto;
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+.link-pdf:hover {
+    background: #FE606E;
+    opacity: 0.4s;
+}
+
+.link-pdf:active {
+    background: #0b9a1e;
+}
+
+.icon {
+    box-shadow: -3px -1px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1220px) {
+    .container {
+        width: 800px;
+    }
+
+    .content-wrapper {
+        width: 800px;
+        }
+
+    .information {
+        width: 300px;
+    }
+
+    .information__photo {
+        height: 400px;
+    }
+
+    .primary {
+        font-size: 13px;
+        width: 300px;
+        }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        width: 600px;
+    }
+
+    .content-wrapper {
+        width: 600px;
+        flex-wrap: wrap-reverse;
+        }
+
+    .information {
+        width: 300px;
+    }
+
+    .information__photo {
+        height: 400px;
+    }
+
+    .primary {
+        font-size: 13px;
+        width: 300px;
+        }
+}
+
+@media screen and (max-width: 620px) {
+    .header {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 360px;
+    }
+
+    .content-wrapper {
+        width: 360px;
+        flex-wrap: wrap-reverse;
+        font-size: 13px;
+        line-height: 16px;
+        }
+
+    .information {
+        width: 300px;
+    }
+
+    .information__photo {
+        height: 300px;
+    }
+
+    .primary {
+        font-size: 13px;
+        width: 300px;
+        }
+}
